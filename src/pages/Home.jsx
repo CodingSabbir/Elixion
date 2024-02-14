@@ -1,12 +1,21 @@
 
 import React from 'react';
-import BannerSection from '../components/BannerSection';
+import HeroSection from '../components/HeroSection';
+import Services from '../components/Services';
+import Choose from '../components/Choose';
+import News from '../components/News';
+import FounderCard from '../components/FounderCard';
+import Pricing from '../components/Pricing';
 
 const Home = () => {
     return (
         <div>
-            <BannerSection/>
-            <h1>jkgjkh</h1>
+          <HeroSection/>
+          <Services/>
+          <Choose/>
+          <News/>
+          <FounderCard/>
+          <Pricing/>
         </div>
     );
 };
