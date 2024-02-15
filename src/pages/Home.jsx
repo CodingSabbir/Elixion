@@ -4,8 +4,10 @@ import HeroSection from '../components/HeroSection';
 import Services from '../components/Services';
 import Choose from '../components/Choose';
 import News from '../components/News';
-import FounderCard from '../components/FounderCard';
+import Founder from '../components/Founder';
 import Pricing from '../components/Pricing';
+import Testimonial from '../components/Testimonial';
+
 
 const Home = () => {
     return (
@@ -14,7 +16,8 @@ const Home = () => {
           <Services/>
           <Choose/>
           <News/>
-          <FounderCard/>
+          <Founder/>
+          <Testimonial/>
           <Pricing/>
         </div>
     );
